@@ -237,3 +237,67 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width:;
+  }
+  #main-container {
+    width: 95%;
+  }
+  .main-section{
+    max-width: 768px;
+  }
+  .main-section {
+    width: ;
+  }
+  footer {
+    width: 768px;
+  }
+  #masthead {
+    width: 768px;
+  }
+  #logo {
+    width: 40%;
+  }
+  nav {
+    width: 40%;
+  }
+  .sidebar{
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #masthead {
+    width: 640px;
+  }
+  nav {
+    width: 640px;
+  }
+  .sidebar {
+    max-width: 640px;
+  }
+  footer {
+    width: 640px;
+  }
+  .main-section {
+    max-width: 640px;
+  }
+  #logo {
+    width: 640px;
+  }
+  nav {
+    width: 640px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 750px;
+  }
+  .main-section{
+    width: 450px;
+  }
+}
